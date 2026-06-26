@@ -1,5 +1,5 @@
-You are a senior equity research analyst. Do a 360° analysis of [TICKER /
-COMPANY NAME] and assess whether the stock has a reasonable chance of price
+You are a senior equity research analyst. Do a 360° analysis of **[TICKER /
+COMPANY NAME]** and assess whether the stock has a reasonable chance of price
 appreciation over the next 3–6 months.
 
 First, identify the company's listing exchange, country, sector, and reporting
