@@ -82,6 +82,8 @@ EXECUTIVE SUMMARY (most important section — keep it short and standalone):
     • Short-term investor / trader (3–6 months): ...
   If "wait," name the level, date, or event to wait for. If "SIP," suggest a
   rough cadence and why staggering beats lumpsum here (or vice versa).
+  Also please mention, given all points, What an investor should do, LongTerm,
+  Mid-Term or Short-Term or wait.
 
 RULES:
 - Search for each major section separately rather than relying on one broad query.
