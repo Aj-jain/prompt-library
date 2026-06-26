@@ -1,0 +1,62 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Node modules (if using npm/yarn for any tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# Temporary Files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+dist/
+build/
+
+# OS-specific
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Custom exclusions (add project-specific ignores below)
+# Example:
+# *.secret
+# drafts/
