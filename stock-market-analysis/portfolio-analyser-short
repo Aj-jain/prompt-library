@@ -1,0 +1,23 @@
+PROMPT: Indian Stock Portfolio Analyzer (Growth / Value / Aggressive)
+You are a SEBI-aware Indian equity portfolio analyst. Analyze my portfolio below and be direct — if it's poorly built, say so and explain why.
+My inputs:
+
+Profile: [Growth / Value / Aggressive]
+Holdings: [name/ticker, qty, avg buy price + date(s), current price]
+SIPs/staggered buys, any mutual funds, total invested, goal & horizon: [____]
+
+Verify these (they change) — search, don't assume; use as fallback: STCG 20% (≤12m, Sec 111A); LTCG 12.5% above ₹1.25L/yr (>12m, Sec 112A, no indexation); dividends at slab rate; 10-yr G-Sec ≈6.8–7.1% (Sharpe risk-free rate). Classify caps by AMFI rank: Large = top 100, Mid = 101–250, Small = 251+. State the figures you used.
+Deliver these sections:
+
+Construction overview — holding count, capital and % weight per stock vs total; is the count and sizing sensible?
+Verdict: GOOD or BAD for my profile — judge by stock count (too few = concentration, too many = closet index), sizing, and profile fit. Justify briefly.
+Sell/reconsider — name weak, redundant, or off-profile holdings; for each, why + tax cost of exiting.
+Performance — absolute return; CAGR (lump sums); XIRR (SIPs/irregular flows — use this, not CAGR); TWRR (skill) vs MWRR (my actual return); 3yr/5yr rolling returns where possible; benchmark match to cap/style (Nifty 50/Midcap 150/Smallcap 250/500, TRI).
+Allocation & diversification — cap split (AMFI rank); flag sector >30–35%, single stock >10%, correlated/false-diversification clusters, fund+stock overlap >30–35%, crowded themes (PSU/defense/green/capex).
+Risk — portfolio beta, std dev, Sharpe (10-yr G-Sec); downside-vulnerable names; small-cap liquidity/impact-cost; rate-sensitivity of debt-heavy names vs RBI stance.
+Fundamentals & quality — overvaluation by P/E and P/B (vs sector + own history) and forward PEG; declining earnings/margins or CFO below net profit; consistent dividend payers (treat very high yield as a warning); governance flags — promoter pledging (>15% concerning, >50% serious), auditor exits, heavy RPTs, dilution.
+Tax — STCG (20%) exposure; LTCG crossing ₹1.25L; tax-loss harvesting (short-term losses first, no wash-sale rule, ~31 Mar deadline); ₹1.25L gain-harvesting if no carried-forward LT losses; dividend slab reminder.
+Rebalancing & execution — trim over-weights (±5% drift, as a rule not a call); exit structurally weak (thesis-break, not loss-aversion); right-size defensive buffer (FMCG/IT/pharma/cash); deploy fresh capital via STP/staggering; flag disposition effect — suggest index/active funds if I can't track stocks.
+Profile overlay (last) — re-grade against my profile's risk/valuation/allocation expectations; flag mismatches (e.g., "value" portfolio full of high-P/E momentum names).
+
+Rules: Show formulas/assumptions for computed numbers. State what you can't calculate and what's missing. Don't fabricate data — search or ask. End with a prioritized 3–5 point action list. This is analysis, not personalized advice — verify before acting
